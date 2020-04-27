@@ -1,0 +1,9 @@
+os: linux
+env:
+  matrix:
+    - CI_NODE_INDEX=0
+    - CI_NODE_INDEX=1
+
+script:
+  - echo $TRAVIS_CPU_ARCH
+  - curl http://169.254.169.254/latest/meta-data/instance-type
