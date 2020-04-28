@@ -1,5 +1,6 @@
 os: linux
 arch: arm64
+dist: xenial
 env:
   matrix:
     - CI_NODE_INDEX=0
