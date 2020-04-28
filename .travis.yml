@@ -5,10 +5,11 @@ dist: xenial
 env:
   matrix:
     - CI_NODE_INDEX=0
-    - CI_NODE_INDEX=1
 
 script:
   - echo TEST
   - echo $TRAVIS_CPU_ARCH
+  - uname -a
   - curl http://169.254.169.254/latest/meta-data/instance-type
+  - echo $(curl http://169.254.169.254/latest/meta-data/instance-type)
   
