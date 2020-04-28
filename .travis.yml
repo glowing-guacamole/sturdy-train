@@ -1,4 +1,5 @@
 os: linux
+arch: arm64
 env:
   matrix:
     - CI_NODE_INDEX=0
