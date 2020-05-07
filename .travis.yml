@@ -11,6 +11,7 @@ jobs:
    - name: arm64 Graviton 2
      arch: arm64-graviton2
 
+
 script:
   - echo TEST
   - echo $TRAVIS_CPU_ARCH
