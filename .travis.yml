@@ -8,6 +8,8 @@ env:
     - CI_NODE_INDEX=1
     - CI_NODE_INDEX=2
     - CI_NODE_INDEX=3
+    - CI_NODE_INDEX=4
+    - CI_NODE_INDEX=5
 
 
 
