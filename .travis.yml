@@ -11,7 +11,6 @@ env:
     - CI_NODE_INDEX=4
     - CI_NODE_INDEX=5
 
-
 script:
   - echo TEST
   - echo $TRAVIS_CPU_ARCH
