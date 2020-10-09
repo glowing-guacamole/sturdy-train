@@ -24,6 +24,8 @@ env:
     - CI_NODE_INDEX=19
     - CI_NODE_INDEX=20
     - CI_NODE_INDEX=21
+    - CI_NODE_INDEX=22
+    - CI_NODE_INDEX=23
 
 script:
   - echo TEST
