@@ -3,11 +3,27 @@ os: linux
 env:
   matrix:
     - CI_NODE_INDEX=0
-#     - CI_NODE_INDEX=1
-#     - CI_NODE_INDEX=2
-#     - CI_NODE_INDEX=3
-#     - CI_NODE_INDEX=4
-#     - CI_NODE_INDEX=5
+    - CI_NODE_INDEX=1
+    - CI_NODE_INDEX=2
+    - CI_NODE_INDEX=3
+    - CI_NODE_INDEX=4
+    - CI_NODE_INDEX=5
+    - CI_NODE_INDEX=6
+    - CI_NODE_INDEX=7
+    - CI_NODE_INDEX=8
+    - CI_NODE_INDEX=9
+    - CI_NODE_INDEX=10
+    - CI_NODE_INDEX=11
+    - CI_NODE_INDEX=12
+    - CI_NODE_INDEX=13
+    - CI_NODE_INDEX=14
+    - CI_NODE_INDEX=15
+    - CI_NODE_INDEX=16
+    - CI_NODE_INDEX=17
+    - CI_NODE_INDEX=18
+    - CI_NODE_INDEX=19
+    - CI_NODE_INDEX=20
+    - CI_NODE_INDEX=21
 
 script:
   - echo TEST
